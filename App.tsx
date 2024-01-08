@@ -50,8 +50,7 @@ function Section({children, title}: SectionProps): React.JSX.Element {
 function App(): React.JSX.Element {
   return (
     <ScrollView contentInsetAdjustmentBehavior="automatic">
-      <Header />
-      <View>
+      <View style={{backgroundColor: '#000'}}>
         <Section title="Step One">
           Edit <Text style={styles.highlight}>App.tsx</Text> to change this
           screen and then come back to see your edits.
